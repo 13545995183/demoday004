@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--上面是头部命名空间-->
+<!--mapper开始就是自己定义的了-->
+<mapper namespace="com.example.demoday004.mapper.QueryMapper">
+
+    <select id="QueryAll" resultType="java.util.List">
+        select id,name,sex from qdd
+    </select>
+</mapper>
